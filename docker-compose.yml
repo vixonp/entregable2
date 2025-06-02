@@ -15,23 +15,37 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
       - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks: 
+      - my_network 
 
   redis:
     image: redis:latest
     container_name: redis-server
     ports:
       - "6379:6379"
+    networks: 
+      - my_network
 
   pig:
     build:
       context: .
-      dockerfile: Dockerfile.pig
+      dockerfile: Dockerfile.pig 
     container_name: pig_container
+
+    ports:
+      - "9870:9870" 
+      - "8088:8088" 
+      - "2222:22"
+                    
     volumes:
-      - ./data:/data
-    tty: true
-
-
+      - ./data:/data 
+    tty: true 
+    networks: 
+      - my_network 
 
 volumes:
   mysql_data:
+
+networks:
+  my_network:
+    driver: bridge

@@ -6,8 +6,7 @@ entregable 2 proyecto SSDD
 **Autores**: Lucas Vicuña, Vicente Silva  
 **Curso**: Sistemas Distribuidos - Universidad Diego Portales  
 **Profesor**: Nicolás Hidalgo  
-**Fecha**: 1 de junio de 2025  
-**Project ID**: `69384236`  
+**Fecha**: 2 de junio de 2025  
 
 ---
 
