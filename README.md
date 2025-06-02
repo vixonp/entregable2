@@ -135,9 +135,9 @@ Se generaron:
 
 ## 🔗 Enlaces
 
-- [Repositorio GitLab](https://github.com/vixonp/entregable2.git)
+- [Repositorio GitHub](https://github.com/vixonp/entregable2.git)
 - [Entrega 1 README](./README.md)
-- [Informe LaTeX](./informe/main.tex)
+- [Informe LaTeX (PDF)](./tarea_2_Sistemas_Distribuidos)
 
 ---
 
