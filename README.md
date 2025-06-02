@@ -34,7 +34,7 @@ Esta segunda entrega expande el sistema distribuido de análisis de eventos de t
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://gitlab.com/proyectos_u/sistemas_distribuidos.git
+git clone https://github.com/vixonp/entregable2.git
 cd sistemas_distribuidos
 ```
 
